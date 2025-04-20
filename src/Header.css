@@ -1,0 +1,175 @@
+/* <button className="menuButton">Button</button> */
+
+.seaderSection {
+  background-color: #d6932c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 180px;
+}
+
+.Blog {
+  background-color: #d6932c;
+  height: 180px;
+  color: white;
+
+  font-family: Inter, sans-serif;
+  padding-top: 50px;
+  padding-left: 180px;
+}
+
+.Blog h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.Logo img {
+  height: 30px;
+}
+
+.items {
+  display: flex;
+  gap: 50px;
+  vertical-align: middle;
+}
+
+.items a {
+  color: white;
+}
+
+.items-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1200px) {
+  .seaderSection {
+    padding: 6.631vh 13.02vw;
+  }
+}
+
+@media only screen and (max-width: 1204px) {
+  .items {
+    display: none;
+  }
+  .seaderSection {
+    padding: 60px 100px;
+  }
+  .Blog {
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    display: none;
+  }
+  .seaderSection {
+    padding: 60px 60px;
+  }
+  .Blog {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .items {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .seaderSection {
+    padding: 3.31vh 6.51vw;
+  }
+
+  .Logo img {
+    height: 15px;
+    margin-top: 10px;
+  }
+}
+
+.menu-form {
+  background-color: black;
+  height: 100vh;
+  width: 30vh;
+  margin-top: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.toggle-btn {
+  /* position: fixed; */
+  top: 20px;
+  right: 20px;
+  z-index: 1100;
+  padding: 10px 15px;
+  background-color: wheat;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.icon-toggle {
+  /* position: fixed; */
+  /* top: 20px;
+  right: 20px; */
+  z-index: 1100;
+  color: burlywood !important;
+  background-color: #fdfdfd !important;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-toggle:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  /* position: fixed; */
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.lejhro-logo-primary {
+  max-height: 20px;
+  max-width: 20vw;
+}
